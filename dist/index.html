@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Momentum</title>
     <link rel="icon" href="assets/favicon.ico" />
@@ -16,7 +16,6 @@
           <button class="play player-icon"></button>
           <button class="play-next player-icon"></button>
         </div>
-
         <div class="song-title"></div>
         <div class="panel">
           <input
@@ -33,7 +32,6 @@
               class="finish-sound"
             ></span>
           </div>
-
           <button class="sound player-icon"></button>
           <input
             class="progress sound-progress"
@@ -48,8 +46,7 @@
         <ul class="play-list"></ul>
       </div>
       <div class="weather">
-        <input type="text" class="city" />
-        <i class="weather-icon owf"></i>
+        <input class="city" /> <i class="weather-icon owf"></i>
         <div class="weather-error"></div>
         <div class="description-container">
           <span class="temperature"></span>
@@ -64,11 +61,9 @@
         <button class="slide-prev slider-icon"></button>
         <button class="slide-next slider-icon"></button>
       </div>
-      <time class="time"></time>
-      <date class="date"></date>
+      <time class="time"></time><date class="date"></date>
       <div class="greeting-container">
-        <span class="greeting"></span>
-        <input type="text" class="name" />
+        <span class="greeting"></span> <input class="name" />
       </div>
     </main>
     <footer class="footer">
@@ -79,7 +74,6 @@
           <div class="author"></div>
         </div>
       </div>
-
       <div class="footer-settings">
         <button class="settings"></button>
         <div class="settings--hidden" id="settings">
@@ -88,64 +82,89 @@
           <div class="language__settings">
             <p class="language__title">Change language</p>
             <div class="language__buttons">
-              <button class="lang-ru">Russian</button>
-              <span>|</span>
+              <button class="lang-ru">Russian</button> <span>|</span>
               <button class="lang-en lang--active">English</button>
             </div>
           </div>
-
           <ul class="block">
             <li class="block__item">
               <span class="block__text" id="playerBlock">Player</span>
-              <label for="" class="switch">
-                <input type="checkbox" name="" id="hidePlayer" checked />
+              <label for="" class="switch"
+                ><input
+                  type="checkbox"
+                  name=""
+                  id="hidePlayer"
+                  checked="checked" />
                 <span class="change"></span
               ></label>
             </li>
             <li class="block__item">
               <span class="block__text" id="weatherBlock">Weather</span>
-              <label for="" class="switch">
-                <input type="checkbox" name="" id="hideWeather" checked />
+              <label for="" class="switch"
+                ><input
+                  type="checkbox"
+                  name=""
+                  id="hideWeather"
+                  checked="checked" />
                 <span class="change"></span
               ></label>
             </li>
             <li class="block__item">
               <span class="block__text" id="timeBlock">Time</span>
-              <label for="" class="switch">
-                <input type="checkbox" name="" id="hideTime" checked />
-                <span class="change"></span>
-              </label>
+              <label for="" class="switch"
+                ><input
+                  type="checkbox"
+                  name=""
+                  id="hideTime"
+                  checked="checked" />
+                <span class="change"></span
+              ></label>
             </li>
             <li class="block__item">
               <span class="block__text" id="dateBlock">Date</span>
-              <label for="" class="switch">
-                <input type="checkbox" name="" id="hideDate" checked />
-                <span class="change"></span>
-              </label>
+              <label for="" class="switch"
+                ><input
+                  type="checkbox"
+                  name=""
+                  id="hideDate"
+                  checked="checked" />
+                <span class="change"></span
+              ></label>
             </li>
             <li class="block__item">
               <span class="block__text" id="greetingBlock">Greeting</span>
-              <label for="" class="switch">
-                <input type="checkbox" name="" id="hideGreeting" checked />
-                <span class="change"></span>
-              </label>
+              <label for="" class="switch"
+                ><input
+                  type="checkbox"
+                  name=""
+                  id="hideGreeting"
+                  checked="checked" />
+                <span class="change"></span
+              ></label>
             </li>
             <li class="block__item">
               <span class="block__text" id="quoteBlock">Quote</span>
-              <label for="" class="switch">
-                <input type="checkbox" name="" id="hideQuote" checked />
-                <span class="change"></span>
-              </label>
+              <label for="" class="switch"
+                ><input
+                  type="checkbox"
+                  name=""
+                  id="hideQuote"
+                  checked="checked" />
+                <span class="change"></span
+              ></label>
             </li>
             <li class="block__item">
               <span class="block__text" id="todoBlock">ToDo List</span>
-              <label for="" class="switch">
-                <input type="checkbox" name="" id="hideTodo" checked />
-                <span class="change"></span>
-              </label>
+              <label for="" class="switch"
+                ><input
+                  type="checkbox"
+                  name=""
+                  id="hideTodo"
+                  checked="checked" />
+                <span class="change"></span
+              ></label>
             </li>
           </ul>
-
           <div class="background-source">
             <p class="background-source__title" id="bgTitle">
               Background source
@@ -157,7 +176,7 @@
                 name="bgSrc"
                 id="gitHub"
                 value="gitHub"
-                checked
+                checked="checked"
               />
               <label class="background__label" for="gitHub">GitHub</label>
               <input
@@ -182,12 +201,10 @@
           </div>
         </div>
       </div>
-
       <button class="button-todo">ToDo List</button>
       <div class="todo">
         <div class="todo-input">
-          <input type="text" class="todo-text" />
-          <span class="todo-icon"></span>
+          <input class="todo-text" /> <span class="todo-icon"></span>
         </div>
         <select class="todo-options">
           <option value="active">active</option>
@@ -197,6 +214,6 @@
         <ul class="todo-items" data-todo-option="active"></ul>
       </div>
     </footer>
-    <script src="./index.js"></script>
+    <script src="./app.js"></script>
   </body>
 </html>
