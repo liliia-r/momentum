@@ -131,13 +131,6 @@ module.exports = ({ development }) => {
             name: "[path][name].[ext]",
           },
         },
-        {
-          test: /\.m?js$/,
-          type: "javascript/auto",
-          resolve: {
-            fullySpecified: false,
-          },
-        },
       ],
     },
     plugins: [
