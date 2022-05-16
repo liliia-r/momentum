@@ -6,8 +6,12 @@
  * -------------------------- */
 @font-face {
   font-family: "owfont";
-  src: url(assets/77585afbae07886acc4e.eot?v=1.0.0);
-  src: url(assets/77585afbae07886acc4e.eot?#iefix&v=1.0.0) format("embedded-opentype"), url(assets/165d3deef009efd0c531.woff) format("woff"), url(assets/3d46599b045b6a14f599.ttf) format("truetype"), url(assets/096a225d79281b53be79.svg#owf-regular) format("svg");
+  src: url(../assets/fonts/owfont-regular.eot);
+  src: url(../assets/fonts/owfont-regular.eot?#iefix&v=1.0.0)
+      format("embedded-opentype"),
+    url(../assets/fonts/owfont-regular.woff) format("woff"),
+    url(../assets/fonts/owfont-regular.ttf) format("truetype"),
+    url(../assets/fonts/owfont-regular.svg#owf-regular) format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -20,45 +24,36 @@
   -moz-osx-font-smoothing: grayscale;
   transform: translate(0, 0);
 }
-
 /* makes the font 33% larger relative to the icon container */
 .owf-lg {
   font-size: 1.33333333em;
   line-height: 0.75em;
   vertical-align: -15%;
 }
-
 .owf-2x {
   font-size: 2em;
 }
-
 .owf-3x {
   font-size: 3em;
 }
-
 .owf-4x {
   font-size: 4em;
 }
-
 .owf-5x {
   font-size: 5em;
 }
-
 .owf-fw {
   width: 1.28571429em;
   text-align: center;
 }
-
 .owf-ul {
   padding-left: 0;
   margin-left: 2.14285714em;
   list-style-type: none;
 }
-
 .owf-ul > li {
   position: relative;
 }
-
 .owf-li {
   position: absolute;
   left: -2.14285714em;
@@ -66,572 +61,508 @@
   top: 0.14285714em;
   text-align: center;
 }
-
 .owf-li.owf-lg {
   left: -1.85714286em;
 }
-
 .owf-border {
   padding: 0.2em 0.25em 0.15em;
   border: solid 0.08em #eeeeee;
   border-radius: 0.1em;
 }
-
 .owf-pull-right {
   float: right;
 }
-
 .owf-pull-left {
   float: left;
 }
-
 .owf.owf-pull-left {
   margin-right: 0.3em;
 }
-
 .owf.owf-pull-right {
   margin-left: 0.3em;
 }
 
 /* owfont uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
+
 /*   Weather Condition Codes    */
+
 /*   Thunderstorm - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
 /* thunderstorm with light rain */
 .owf-200:before,
 .owf-200-d:before,
 .owf-200-n:before {
-  content: "\eb28";
+  content: "\EB28";
 }
-
 /* thunderstorm with rain */
 .owf-201:before,
 .owf-201-d:before,
 .owf-201-n:before {
-  content: "\eb29";
+  content: "\EB29";
 }
-
 /* thunderstorm with heavy rain */
 .owf-202:before,
 .owf-202-d:before,
 .owf-202-n:before {
-  content: "\eb2a";
+  content: "\EB2A";
 }
-
 /*  light thunderstorm  */
 .owf-210:before,
 .owf-210-d:before,
 .owf-210-n:before {
-  content: "\eb32";
+  content: "\EB32";
 }
-
 /*  thunderstorm  */
 .owf-211:before,
 .owf-211-d:before,
 .owf-211-n:before {
-  content: "\eb33";
+  content: "\EB33";
 }
-
 /*   heavy thunderstorm   */
 .owf-212:before,
 .owf-212-d:before,
 .owf-212-n:before {
-  content: "\eb34";
+  content: "\EB34";
 }
-
 /*   ragged thunderstorm   */
 .owf-221:before,
 .owf-221-d:before,
 .owf-221-n:before {
-  content: "\eb3d";
+  content: "\EB3D";
 }
-
 /*  thunderstorm with light drizzle    */
 .owf-230:before,
 .owf-230-d:before,
 .owf-230-n:before {
-  content: "\eb46";
+  content: "\EB46";
 }
-
 /*  thunderstorm with drizzle     */
 .owf-231:before,
 .owf-231-d:before,
 .owf-231-n:before {
-  content: "\eb47";
+  content: "\EB47";
 }
-
 /* thunderstorm with heavy drizzle     */
 .owf-232:before,
 .owf-232-d:before,
 .owf-232-n:before {
-  content: "\eb48";
+  content: "\EB48";
 }
 
 /*   Drizzle - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
 /*  light intensity drizzle */
 .owf-300:before,
 .owf-300-d:before,
 .owf-300-n:before {
-  content: "\eb8c";
+  content: "\EB8C";
 }
-
 /*  drizzle */
 .owf-301:before,
 .owf-301-d:before,
 .owf-301-n:before {
-  content: "\eb8d";
+  content: "\EB8D";
 }
-
 /*  heavy intensity drizzle  */
 .owf-302:before,
 .owf-302-d:before,
 .owf-302-n:before {
-  content: "\eb8e";
+  content: "\EB8E";
 }
-
 /*   light intensity drizzle rain  */
 .owf-310:before,
 .owf-310-d:before,
 .owf-310-n:before {
-  content: "\eb96";
+  content: "\EB96";
 }
-
 /*  drizzle rain  */
 .owf-311:before,
 .owf-311-d:before,
 .owf-311-n:before {
-  content: "\eb97";
+  content: "\EB97";
 }
-
 /* heavy intensity drizzle rain */
 .owf-312:before,
 .owf-312-d:before,
 .owf-312-n:before {
-  content: "\eb98";
+  content: "\EB98";
 }
-
 /* shower rain and drizzle  */
 .owf-313:before,
 .owf-313-d:before,
 .owf-313-n:before {
-  content: "\eb99";
+  content: "\EB99";
 }
-
 /* heavy shower rain and drizzle*/
 .owf-314:before,
 .owf-314-d:before,
 .owf-314-n:before {
-  content: "\eb9a";
+  content: "\EB9A";
 }
-
 /* shower drizzle */
 .owf-321:before,
 .owf-321-d:before,
 .owf-321-n:before {
-  content: "\eba1";
+  content: "\EBA1";
 }
 
 /*   Rain - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
 /* light rain  */
 .owf-500:before,
 .owf-500-d:before,
 .owf-500-n:before {
-  content: "\ec54";
+  content: "\EC54";
 }
-
 /* moderate rain  */
 .owf-501:before,
 .owf-501-d:before,
 .owf-501-n:before {
-  content: "\ec55";
+  content: "\EC55";
 }
-
 /* heavy intensity rain  */
 .owf-502:before,
 .owf-502-d:before,
 .owf-502-n:before {
-  content: "\ec56";
+  content: "\EC56";
 }
-
 /* very heavy rain   */
 .owf-503:before,
 .owf-503-d:before,
 .owf-503-n:before {
-  content: "\ec57";
+  content: "\EC57";
 }
-
 /* extreme rain    */
 .owf-504:before,
 .owf-504-d:before,
 .owf-504-n:before {
-  content: "\ec58";
+  content: "\EC58";
 }
-
 /* freezing rain    */
 .owf-511:before,
 .owf-511-d:before,
 .owf-511-n:before {
-  content: "\ec5f";
+  content: "\EC5F";
 }
-
 /*  light intensity shower rain    */
 .owf-520:before,
 .owf-520-d:before,
 .owf-520-n:before {
-  content: "\ec68";
+  content: "\EC68";
 }
-
 /* shower rain  */
 .owf-521:before,
 .owf-521-d:before,
 .owf-521-n:before {
-  content: "\ec69";
+  content: "\EC69";
 }
-
 /*  heavy intensity shower rain  */
 .owf-522:before,
 .owf-522-d:before,
 .owf-522-n:before {
-  content: "\ec6a";
+  content: "\EC6A";
 }
-
 /* ragged shower rain  */
 .owf-531:before,
 .owf-531-d:before,
 .owf-531-n:before {
-  content: "\ec73";
+  content: "\EC73";
 }
 
 /*   Snow - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
 /* light snow  */
 .owf-600:before,
 .owf-600-d:before,
 .owf-600-n:before {
-  content: "\ecb8";
+  content: "\ECB8";
 }
-
 /*  snow  */
 .owf-601:before,
 .owf-601-d:before,
 .owf-601-n:before {
-  content: "\ecb9";
+  content: "\ECB9";
 }
-
 /*   heavy snow   */
 .owf-602:before,
 .owf-602-d:before,
 .owf-602-n:before {
-  content: "\ecba";
+  content: "\ECBA";
 }
-
 /*  sleet  */
 .owf-611:before,
 .owf-611-d:before,
 .owf-611-n:before {
-  content: "\ecc3";
+  content: "\ECC3";
 }
-
 /*   shower sleet */
 .owf-612:before,
 .owf-612-d:before,
 .owf-612-n:before {
-  content: "\ecc4";
+  content: "\ECC4";
 }
-
 /* light rain and snow */
 .owf-615:before,
 .owf-615-d:before,
 .owf-615-n:before {
-  content: "\ecc7";
+  content: "\ECC7";
 }
-
 /* rain and snow  */
 .owf-616:before,
 .owf-616-d:before,
 .owf-616-n:before {
-  content: "\ecc8";
+  content: "\ECC8";
 }
-
 /* light shower snow  */
 .owf-620:before,
 .owf-620-d:before,
 .owf-620-n:before {
-  content: "\eccc";
+  content: "\ECCC";
 }
-
 /* shower snow  */
 .owf-621:before,
 .owf-621-d:before,
 .owf-621-n:before {
-  content: "\eccd";
+  content: "\ECCD";
 }
-
 /* heavy shower snow  */
 .owf-622:before,
 .owf-622-d:before,
 .owf-622-n:before {
-  content: "\ecce";
+  content: "\ECCE";
 }
 
 /*   Atmosphere - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
 /* mist */
 .owf-701:before,
 .owf-701-d:before,
 .owf-701-n:before {
-  content: "\ed1d";
+  content: "\ED1D";
 }
-
 /* smoke */
 .owf-711:before,
 .owf-711-d:before,
 .owf-711-n:before {
-  content: "\ed27";
+  content: "\ED27";
 }
-
 /* haze */
 .owf-721:before,
 .owf-721-d:before,
 .owf-721-n:before {
-  content: "\ed31";
+  content: "\ED31";
 }
-
 /* Sand/Dust Whirls */
 .owf-731:before,
 .owf-731-d:before,
 .owf-731-n:before {
-  content: "\ed3b";
+  content: "\ED3B";
 }
-
 /* Fog */
 .owf-741:before,
 .owf-741-d:before,
 .owf-741-n:before {
-  content: "\ed45";
+  content: "\ED45";
 }
-
 /* sand */
 .owf-751:before,
 .owf-751-d:before,
 .owf-751-n:before {
-  content: "\ed4f";
+  content: "\ED4F";
 }
-
 /* dust */
 .owf-761:before,
 .owf-761-d:before,
 .owf-761-n:before {
-  content: "\ed59";
+  content: "\ED59";
 }
-
 /*  VOLCANIC ASH  */
 .owf-762:before,
 .owf-762-d:before,
 .owf-762-n:before {
-  content: "\ed5a";
+  content: "\ED5A";
 }
-
 /* SQUALLS */
 .owf-771:before,
 .owf-771-d:before,
 .owf-771-n:before {
-  content: "\ed63";
+  content: "\ED63";
 }
-
 /* TORNADO */
 .owf-781:before,
 .owf-781-d:before,
 .owf-781-n:before {
-  content: "\ed6d";
+  content: "\ED6D";
 }
 
 /*   Clouds - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
-/*  sky is clear  */
-/*  Calm  */
+
+/*  sky is clear  */ /*  Calm  */
 .owf-800:before,
 .owf-800-d:before,
 .owf-951:before,
 .owf-951-d:before {
-  content: "\ed80";
+  content: "\ED80";
 }
-
 .owf-800-n:before,
 .owf-951-n:before {
-  content: "\f168";
+  content: "\F168";
 }
-
 /*  few clouds   */
 .owf-801:before,
 .owf-801-d:before {
-  content: "\ed81";
+  content: "\ED81";
 }
-
 .owf-801-n:before {
-  content: "\f169";
+  content: "\F169";
 }
-
 /* scattered clouds */
 .owf-802:before,
 .owf-802-d:before {
-  content: "\ed82";
+  content: "\ED82";
 }
-
 .owf-802-n:before {
-  content: "\f16a";
+  content: "\F16A";
 }
-
 /* broken clouds  */
 .owf-803:before,
 .owf-803-d:before,
 .owf-803-n:before {
-  content: "\ed83";
+  content: "\ED83";
 }
-
 /* overcast clouds  */
 .owf-804:before,
 .owf-804-d:before,
 .owf-804-n:before {
-  content: "\ed84";
+  content: "\ED84";
 }
 
 /*   Extreme - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
 /* tornado  */
 .owf-900:before,
 .owf-900-d:before,
 .owf-900-n:before {
-  content: "\ede4";
+  content: "\EDE4";
 }
-
 /*  tropical storm  */
 .owf-901:before,
 .owf-901-d:before,
 .owf-901-n:before {
-  content: "\ede5";
+  content: "\EDE5";
 }
-
 /* hurricane */
 .owf-902:before,
 .owf-902-d:before,
 .owf-902-n:before {
-  content: "\ede6";
+  content: "\EDE6";
 }
-
 /* cold */
 .owf-903:before,
 .owf-903-d:before,
 .owf-903-n:before {
-  content: "\ede7";
+  content: "\EDE7";
 }
-
 /* hot */
 .owf-904:before,
 .owf-904-d:before,
 .owf-904-n:before {
-  content: "\ede8";
+  content: "\EDE8";
 }
-
 /* windy */
 .owf-905:before,
 .owf-905-d:before,
 .owf-905-n:before {
-  content: "\ede9";
+  content: "\EDE9";
 }
-
 /* hail */
 .owf-906:before,
 .owf-906-d:before,
 .owf-906-n:before {
-  content: "\edea";
+  content: "\EDEA";
 }
 
 /*   Additional - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
 /* Setting */
 .owf-950:before,
 .owf-950-d:before,
 .owf-950-n:before {
-  content: "\ee16";
+  content: "\EE16";
 }
-
 /*  Light breeze  */
 .owf-952:before,
 .owf-952-d:before,
 .owf-952-n:before {
-  content: "\ee18";
+  content: "\EE18";
 }
-
 /*  Gentle Breeze  */
 .owf-953:before,
 .owf-953-d:before,
 .owf-953-n:before {
-  content: "\ee19";
+  content: "\EE19";
 }
-
 /*  Moderate breeze  */
 .owf-954:before,
 .owf-954-d:before,
 .owf-954-n:before {
-  content: "\ee1a";
+  content: "\EE1A";
 }
-
 /* Fresh Breeze  */
 .owf-955:before,
 .owf-955-d:before,
 .owf-955-n:before {
-  content: "\ee1b";
+  content: "\EE1B";
 }
-
 /* Strong  Breeze  */
 .owf-956:before,
 .owf-956-d:before,
 .owf-956-n:before {
-  content: "\ee1c";
+  content: "\EE1C";
 }
-
 /* High wind, near gale  */
 .owf-957:before,
 .owf-957-d:before,
 .owf-957-n:before {
-  content: "\ee1d";
+  content: "\EE1D";
 }
-
 /* Gale */
 .owf-958:before,
 .owf-958-d:before,
 .owf-958-n:before {
-  content: "\ee1e";
+  content: "\EE1E";
 }
-
 /*  Severe Gale  */
 .owf-959:before,
 .owf-959-d:before,
 .owf-959-n:before {
-  content: "\ee1f";
+  content: "\EE1F";
 }
-
 /* Storm */
 .owf-960:before,
 .owf-960-d:before,
 .owf-960-n:before {
-  content: "\ee20";
+  content: "\EE20";
 }
-
 /*  Violent Storm  */
 .owf-961:before,
 .owf-961-d:before,
 .owf-961-n:before {
-  content: "\ee21";
+  content: "\EE21";
 }
-
 /* Hurricane */
 .owf-962:before,
 .owf-962-d:before,
 .owf-962-n:before {
-  content: "\ee22";
+  content: "\EE22";
 }
-@charset "UTF-8";
+
 @font-face {
   font-family: "Arial-MT";
-  src: url(assets/bacabc50aec871480dcb.woff);
+  src: url(../assets/fonts/Arial-MT.woff);
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -711,7 +642,7 @@ ul {
 }
 
 .play-item::before {
-  content: "✓";
+  content: "\2713";
   position: absolute;
   left: 0;
   top: 2px;
@@ -764,12 +695,12 @@ ul {
   width: 40px;
   height: 40px;
   background-size: 40px 40px;
-  background-image: url(data:image/svg+xml;base64,PCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij4NCjx0aXRsZT5wbGF5MjwvdGl0bGU+DQo8cGF0aCBmaWxsPSIjZmZmIiBkPSJNMzIgMGMtMTcuNjczIDAtMzIgMTQuMzI3LTMyIDMyczE0LjMyNyAzMiAzMiAzMiAzMi0xNC4zMjcgMzItMzItMTQuMzI3LTMyLTMyLTMyek0zMiA1OGMtMTQuMzU5IDAtMjYtMTEuNjQxLTI2LTI2czExLjY0MS0yNiAyNi0yNiAyNiAxMS42NDEgMjYgMjYtMTEuNjQxIDI2LTI2IDI2ek0yNCAxOGwyNCAxNC0yNCAxNHoiPjwvcGF0aD4NCjwvc3ZnPg0K);
+  background-image: url(../assets/svg/play.svg);
 }
 
 .pause {
   background-size: 40px 40px;
-  background-image: url(data:image/svg+xml;base64,PCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij4NCjx0aXRsZT5wYXVzZTwvdGl0bGU+DQo8cGF0aCBmaWxsPSIjZmZmIiBkPSJNMzIgMGMtMTcuNjczIDAtMzIgMTQuMzI3LTMyIDMyczE0LjMyNyAzMiAzMiAzMiAzMi0xNC4zMjcgMzItMzItMTQuMzI3LTMyLTMyLTMyek0zMiA1OGMtMTQuMzU5IDAtMjYtMTEuNjQxLTI2LTI2czExLjY0MS0yNiAyNi0yNiAyNiAxMS42NDEgMjYgMjYtMTEuNjQxIDI2LTI2IDI2ek0yMCAyMGg4djI0aC04ek0zNiAyMGg4djI0aC04eiI+PC9wYXRoPg0KPC9zdmc+DQo=);
+  background-image: url(../assets/svg/pause.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -777,15 +708,15 @@ ul {
 .pause-active {
   background-size: 20px 20px;
   background-position: left center;
-  background-image: url(data:image/svg+xml;base64,PCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij4NCjx0aXRsZT5wYXVzZTwvdGl0bGU+DQo8cGF0aCBmaWxsPSIjZmZmIiBkPSJNMzIgMGMtMTcuNjczIDAtMzIgMTQuMzI3LTMyIDMyczE0LjMyNyAzMiAzMiAzMiAzMi0xNC4zMjcgMzItMzItMTQuMzI3LTMyLTMyLTMyek0zMiA1OGMtMTQuMzU5IDAtMjYtMTEuNjQxLTI2LTI2czExLjY0MS0yNiAyNi0yNiAyNiAxMS42NDEgMjYgMjYtMTEuNjQxIDI2LTI2IDI2ek0yMCAyMGg4djI0aC04ek0zNiAyMGg4djI0aC04eiI+PC9wYXRoPg0KPC9zdmc+DQo=);
+  background-image: url(../assets/svg/pause.svg);
 }
 
 .play-prev {
-  background-image: url(data:image/svg+xml;base64,PCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij4NCjx0aXRsZT5iYWNrd2FyZDwvdGl0bGU+DQo8cGF0aCBmaWxsPSIjZmZmIiBkPSJNMzIgNjRjMTcuNjczIDAgMzItMTQuMzI3IDMyLTMycy0xNC4zMjctMzItMzItMzItMzIgMTQuMzI3LTMyIDMyIDE0LjMyNyAzMiAzMiAzMnpNMzIgNmMxNC4zNTkgMCAyNiAxMS42NDEgMjYgMjZzLTExLjY0MSAyNi0yNiAyNi0yNi0xMS42NDEtMjYtMjYgMTEuNjQxLTI2IDI2LTI2ek00NCA0MmwtMTQtMTAgMTQtMTB6TTI4IDQybC0xNC0xMCAxNC0xMHoiPjwvcGF0aD4NCjwvc3ZnPg0K);
+  background-image: url(../assets/svg/play-prev.svg);
 }
 
 .play-next {
-  background-image: url(data:image/svg+xml;base64,PCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij4NCjx0aXRsZT5mb3J3YXJkMjwvdGl0bGU+DQo8cGF0aCBmaWxsPSIjZmZmIiBkPSJNMzIgMGMtMTcuNjczIDAtMzIgMTQuMzI3LTMyIDMyczE0LjMyNyAzMiAzMiAzMiAzMi0xNC4zMjcgMzItMzItMTQuMzI3LTMyLTMyLTMyek0zMiA1OGMtMTQuMzU5IDAtMjYtMTEuNjQxLTI2LTI2czExLjY0MS0yNiAyNi0yNiAyNiAxMS42NDEgMjYgMjYtMTEuNjQxIDI2LTI2IDI2ek0yMCAyMmwxNCAxMC0xNCAxMHpNMzYgMjJsMTQgMTAtMTQgMTB6Ij48L3BhdGg+DQo8L3N2Zz4NCg==);
+  background-image: url(../assets/svg/play-next.svg);
 }
 
 .panel {
@@ -802,7 +733,7 @@ ul {
 }
 
 .sound {
-  background-image: url(data:image/svg+xml;base64,PHN2Zw0KICAgICAgICAgICAgICAgIHdpZHRoPSIzOCINCiAgICAgICAgICAgICAgICBoZWlnaHQ9IjMwIg0KICAgICAgICAgICAgICAgIHZpZXdCb3g9IjAgMCAzOCAzMCINCiAgICAgICAgICAgICAgICBmaWxsPSIjZmZmIg0KICAgICAgICAgICAgICAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyINCiAgICAgICAgICAgICAgPg0KICAgICAgICAgICAgICAgIDxwYXRoDQogICAgICAgICAgICAgICAgICBkPSJNMTcuODYgMEwzLjYzIDEwLjQyVjE5LjA3TDE3Ljg2IDI5LjQ5QzE3LjgzIDcuMjYgMTcuODYgMTguMTcgMTcuODYgMFoiDQogICAgICAgICAgICAgICAgICBmaWxsPSIjZmZmIg0KICAgICAgICAgICAgICAgIC8+DQogICAgICAgICAgICAgICAgPHBhdGggZD0iTTAgMjEuOTE5OEg3LjQ3VjcuNTU5ODFIMFYyMS45MTk4WiIgZmlsbD0iI2ZmZiIgLz4NCiAgICAgICAgICAgICAgICA8cGF0aA0KICAgICAgICAgICAgICAgICAgZD0iTTI3IDI5LjEzOTlDMjYuNjU1OSAyOS4xNDA3IDI2LjMxOTMgMjkuMDM5NSAyNi4wMzI4IDI4Ljg0OUMyNS43NDYyIDI4LjY1ODYgMjUuNTIyNSAyOC4zODc0IDI1LjM5IDI4LjA2OTlDMjUuMjk5MyAyNy44NTcyIDI1LjI1MTQgMjcuNjI4NiAyNS4yNDkgMjcuMzk3NEMyNS4yNDY3IDI3LjE2NjEgMjUuMjg5OSAyNi45MzY3IDI1LjM3NjMgMjYuNzIyMUMyNS40NjI3IDI2LjUwNzYgMjUuNTkwNSAyNi4zMTIyIDI1Ljc1MjQgMjYuMTQ3MUMyNS45MTQzIDI1Ljk4MiAyNi4xMDcyIDI1Ljg1MDQgMjYuMzIgMjUuNzU5OUMyNy43MzQ0IDI1LjE2MDMgMjkuMDE4NCAyNC4yOTA3IDMwLjEgMjMuMTk5OUMzMi4zMzI4IDIwLjk1NDEgMzMuNTg3MyAxNy45MTY3IDMzLjU5IDE0Ljc0OTlDMzMuNTc5MyAxMS41Nzg4IDMyLjMxMzggOC41NDA4IDMwLjA3IDYuMjk5ODhDMjguOTg2MyA1LjIwODk0IDI3LjcwMzEgNC4zMzY0NCAyNi4yOSAzLjcyOTg4QzI1Ljg2MjcgMy41NDcgMjUuNTI1MSAzLjIwMjUxIDI1LjM1MDkgMi43NzE2QzI1LjE3NjYgMi4zNDA3IDI1LjE3OTkgMS44NTgzNyAyNS4zNiAxLjQyOTg4QzI1LjQ0NjMgMS4yMTYwNCAyNS41NzQ2IDEuMDIxNzMgMjUuNzM3NSAwLjg1ODQ5NUMyNS45MDAzIDAuNjk1MjU5IDI2LjA5NDMgMC41NjY0MzIgMjYuMzA4IDAuNDc5NjczQzI2LjUyMTYgMC4zOTI5MTQgMjYuNzUwNSAwLjM0OTk5NSAyNi45ODExIDAuMzUzNDY2QzI3LjIxMTYgMC4zNTY5MzggMjcuNDM5MSAwLjQwNjcyOSAyNy42NSAwLjQ5OTg4QzMxLjM0MTkgMi4wNzUyMyAzNC4yNzgyIDUuMDIyMjIgMzUuODQgOC43MTk4OEMzNi42NDUyIDEwLjYxNzcgMzcuMDYwMSAxMi42NTgzIDM3LjA2IDE0LjcxOTlDMzcuMDU5IDE2Ljc4MDQgMzYuNjQ3NyAxOC44MiAzNS44NSAyMC43MTk5QzM1LjA3NyAyMi41NTY1IDMzLjk1MjYgMjQuMjI0NCAzMi41NCAyNS42Mjk5QzMxLjE0NzUgMjcuMDYzOCAyOS40ODU4IDI4LjIwOSAyNy42NSAyOC45OTk5QzI3LjQ0NTMgMjkuMDkwNyAyNy4yMjQgMjkuMTM4NCAyNyAyOS4xMzk5WiINCiAgICAgICAgICAgICAgICAgIGZpbGw9IiNmZmYiDQogICAgICAgICAgICAgICAgLz4NCiAgICAgICAgICAgICAgICA8cGF0aA0KICAgICAgICAgICAgICAgICAgZD0iTTIzLjY5IDIyLjA4MDFDMjMuMzA5NCAyMi4wNzk2IDIyLjk0MDYgMjEuOTQ3NiAyMi42NDYyIDIxLjcwNjRDMjIuMzUxOCAyMS40NjUyIDIyLjE0OTkgMjEuMTI5NyAyMi4wNzQ2IDIwLjc1NjZDMjEuOTk5MiAyMC4zODM1IDIyLjA1NTEgMTkuOTk1OSAyMi4yMzI5IDE5LjY1OTRDMjIuNDEwNiAxOS4zMjI5IDIyLjY5OTMgMTkuMDU4MSAyMy4wNDk5IDE4LjkxMDFDMjMuODY1NSAxOC41NjM1IDI0LjU2MDUgMTcuOTgzOCAyNS4wNDggMTcuMjQzOEMyNS41MzU0IDE2LjUwMzcgMjUuNzkzNiAxNS42MzYyIDI1Ljc5IDE0Ljc1MDFDMjUuNzkzNSAxNC4xNDkgMjUuNjc0NCAxMy41NTM1IDI1LjQ0IDEzLjAwMDFDMjUuMjAzMSAxMi40NjI3IDI0Ljg2MzQgMTEuOTc2OSAyNC40NCAxMS41NzAxQzI0LjAzMTIgMTEuMTQ4OSAyMy41NDU4IDEwLjgwOTUgMjMuMDEgMTAuNTcwMUMyMi42NTY0IDEwLjM3MjcgMjIuMzg4MyAxMC4wNTE1IDIyLjI1NzQgOS42NjgyNUMyMi4xMjY0IDkuMjg1MDQgMjIuMTQxOCA4Ljg2NjkzIDIyLjMwMDggOC40OTQ0NUMyMi40NTk3IDguMTIxOTcgMjIuNzUwOCA3LjgyMTQ2IDIzLjExOCA3LjY1MDhDMjMuNDg1MyA3LjQ4MDEzIDIzLjkwMjggNy40NTEzOCAyNC4yOSA3LjU3MDA4QzI1LjQ2MjUgOC4wNzE4OSAyNi40OTUgOC44NTIyIDI3LjI5NzcgOS44NDMzMkMyOC4xMDA1IDEwLjgzNDQgMjguNjQ5MyAxMi4wMDY0IDI4Ljg5NjYgMTMuMjU3N0MyOS4xNDM5IDE0LjUwODkgMjkuMDgyMiAxNS44MDE2IDI4LjcxNjggMTcuMDIzNUMyOC4zNTE1IDE4LjI0NTUgMjcuNjkzNCAxOS4zNTk5IDI2Ljc5OTkgMjAuMjcwMUMyNi4wOTQxIDIwLjk4MzQgMjUuMjU0OCAyMS41NTA4IDI0LjMyOTkgMjEuOTQwMUMyNC4xMjgxIDIyLjAyOTMgMjMuOTEwNiAyMi4wNzY5IDIzLjY5IDIyLjA4MDFaIg0KICAgICAgICAgICAgICAgICAgZmlsbD0iI2ZmZiINCiAgICAgICAgICAgICAgICAvPg0KICAgICAgICAgICAgICA8L3N2Zz4=);
+  background-image: url(../assets/svg/sound.svg);
   background-size: 20px 20px;
   margin-left: 10px;
 }
@@ -902,12 +833,12 @@ ul {
 
 .slide-prev {
   left: 20px;
-  background-image: url(data:image/svg+xml;base64,PCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij4NCjx0aXRsZT5hcnJvd19iYWNrX2lvczwvdGl0bGU+DQo8cGF0aCBmaWxsPSIjZmZmIiBkPSJNMzEuMTI1IDEwLjM3NWwtMjEuNjI1IDIxLjYyNSAyMS42MjUgMjEuNjI1LTQuNzUgNC43NS0yNi4zNzUtMjYuMzc1IDI2LjM3NS0yNi4zNzV6Ij48L3BhdGg+DQo8L3N2Zz4NCg==);
+  background-image: url(../assets/svg/slider-prev.svg);
 }
 
 .slide-next {
   right: 20px;
-  background-image: url(data:image/svg+xml;base64,PCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij4NCjx0aXRsZT5hcnJvd19mb3J3YXJkX2lvczwvdGl0bGU+DQo8cGF0aCBmaWxsPSIjZmZmIiBkPSJNMTUuNjI1IDExbDUuNzUtNS42MjUgMjYuNjI1IDI2LjYyNS0yNi42MjUgMjYuNjI1LTUuNzUtNS42MjUgMjEuMTI1LTIxeiI+PC9wYXRoPg0KPC9zdmc+DQo=);
+  background-image: url(../assets/svg/slider-next.svg);
 }
 
 .time {
@@ -971,7 +902,7 @@ ul {
 
 .change-quote {
   margin-bottom: 30px;
-  background-image: url(data:image/svg+xml;base64,PCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij4NCjx0aXRsZT5sb29wMjwvdGl0bGU+DQo8cGF0aCBmaWxsPSIjZmZmIiBkPSJNNTUuNjA1IDEwLjM5NWMtNS44NTEtNi4zODgtMTQuMjYtMTAuMzk1LTIzLjYwNS0xMC4zOTUtMTcuNjczIDAtMzIgMTQuMzI3LTMyIDMyaDZjMC0xNC4zNTkgMTEuNjQxLTI2IDI2LTI2IDcuNjg5IDAgMTQuNTk2IDMuMzM5IDE5LjM1NiA4LjY0NGwtOS4zNTYgOS4zNTZoMjJ2LTIybC04LjM5NSA4LjM5NXoiPjwvcGF0aD4NCjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik01OCAzMmMwIDE0LjM1OS0xMS42NDEgMjYtMjYgMjYtNy42ODkgMC0xNC41OTYtMy4zMzktMTkuMzU2LTguNjQ0bDkuMzU2LTkuMzU2aC0yMnYyMmw4LjM5NS04LjM5NWM1Ljg1MSA2LjM4OSAxNC4yNiAxMC4zOTUgMjMuNjA1IDEwLjM5NSAxNy42NzMgMCAzMi0xNC4zMjcgMzItMzJoLTZ6Ij48L3BhdGg+DQo8L3N2Zz4NCg==);
+  background-image: url(../assets/svg/reload.svg);
 }
 
 .quote {
@@ -995,7 +926,7 @@ ul {
   height: 50px;
   bottom: 0;
   background: transparent;
-  background-image: url(data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSIgZGF0YS1wcmVmaXg9ImZhcyIgZGF0YS1pY29uPSJjb2dzIiBjbGFzcz0ic3ZnLWlubGluZS0tZmEgZmEtY29ncyBmYS13LTIwIiByb2xlPSJpbWciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDY0MCA1MTIiPjxwYXRoIGZpbGw9IndoaXRlIiBkPSJNNTEyLjEgMTkxbC04LjIgMTQuM2MtMyA1LjMtOS40IDcuNS0xNS4xIDUuNC0xMS44LTQuNC0yMi42LTEwLjctMzIuMS0xOC42LTQuNi0zLjgtNS44LTEwLjUtMi44LTE1LjdsOC4yLTE0LjNjLTYuOS04LTEyLjMtMTcuMy0xNS45LTI3LjRoLTE2LjVjLTYgMC0xMS4yLTQuMy0xMi4yLTEwLjMtMi0xMi0yLjEtMjQuNiAwLTM3LjEgMS02IDYuMi0xMC40IDEyLjItMTAuNGgxNi41YzMuNi0xMC4xIDktMTkuNCAxNS45LTI3LjRsLTguMi0xNC4zYy0zLTUuMi0xLjktMTEuOSAyLjgtMTUuNyA5LjUtNy45IDIwLjQtMTQuMiAzMi4xLTE4LjYgNS43LTIuMSAxMi4xLjEgMTUuMSA1LjRsOC4yIDE0LjNjMTAuNS0xLjkgMjEuMi0xLjkgMzEuNyAwTDU1MiA2LjNjMy01LjMgOS40LTcuNSAxNS4xLTUuNCAxMS44IDQuNCAyMi42IDEwLjcgMzIuMSAxOC42IDQuNiAzLjggNS44IDEwLjUgMi44IDE1LjdsLTguMiAxNC4zYzYuOSA4IDEyLjMgMTcuMyAxNS45IDI3LjRoMTYuNWM2IDAgMTEuMiA0LjMgMTIuMiAxMC4zIDIgMTIgMi4xIDI0LjYgMCAzNy4xLTEgNi02LjIgMTAuNC0xMi4yIDEwLjRoLTE2LjVjLTMuNiAxMC4xLTkgMTkuNC0xNS45IDI3LjRsOC4yIDE0LjNjMyA1LjIgMS45IDExLjktMi44IDE1LjctOS41IDcuOS0yMC40IDE0LjItMzIuMSAxOC42LTUuNyAyLjEtMTIuMS0uMS0xNS4xLTUuNGwtOC4yLTE0LjNjLTEwLjQgMS45LTIxLjIgMS45LTMxLjcgMHptLTEwLjUtNTguOGMzOC41IDI5LjYgODIuNC0xNC4zIDUyLjgtNTIuOC0zOC41LTI5LjctODIuNCAxNC4zLTUyLjggNTIuOHpNMzg2LjMgMjg2LjFsMzMuNyAxNi44YzEwLjEgNS44IDE0LjUgMTguMSAxMC41IDI5LjEtOC45IDI0LjItMjYuNCA0Ni40LTQyLjYgNjUuOC03LjQgOC45LTIwLjIgMTEuMS0zMC4zIDUuM2wtMjkuMS0xNi44Yy0xNiAxMy43LTM0LjYgMjQuNi01NC45IDMxLjd2MzMuNmMwIDExLjYtOC4zIDIxLjYtMTkuNyAyMy42LTI0LjYgNC4yLTUwLjQgNC40LTc1LjkgMC0xMS41LTItMjAtMTEuOS0yMC0yMy42VjQxOGMtMjAuMy03LjItMzguOS0xOC01NC45LTMxLjdMNzQgNDAzYy0xMCA1LjgtMjIuOSAzLjYtMzAuMy01LjMtMTYuMi0xOS40LTMzLjMtNDEuNi00Mi4yLTY1LjctNC0xMC45LjQtMjMuMiAxMC41LTI5LjFsMzMuMy0xNi44Yy0zLjktMjAuOS0zLjktNDIuNCAwLTYzLjRMMTIgMjA1LjhjLTEwLjEtNS44LTE0LjYtMTguMS0xMC41LTI5IDguOS0yNC4yIDI2LTQ2LjQgNDIuMi02NS44IDcuNC04LjkgMjAuMi0xMS4xIDMwLjMtNS4zbDI5LjEgMTYuOGMxNi0xMy43IDM0LjYtMjQuNiA1NC45LTMxLjdWNTcuMWMwLTExLjUgOC4yLTIxLjUgMTkuNi0yMy41IDI0LjYtNC4yIDUwLjUtNC40IDc2LS4xIDExLjUgMiAyMCAxMS45IDIwIDIzLjZ2MzMuNmMyMC4zIDcuMiAzOC45IDE4IDU0LjkgMzEuN2wyOS4xLTE2LjhjMTAtNS44IDIyLjktMy42IDMwLjMgNS4zIDE2LjIgMTkuNCAzMy4yIDQxLjYgNDIuMSA2NS44IDQgMTAuOS4xIDIzLjItMTAgMjkuMWwtMzMuNyAxNi44YzMuOSAyMSAzLjkgNDIuNSAwIDYzLjV6bS0xMTcuNiAyMS4xYzU5LjItNzctMjguNy0xNjQuOS0xMDUuNy0xMDUuNy01OS4yIDc3IDI4LjcgMTY0LjkgMTA1LjcgMTA1Ljd6bTI0My40IDE4Mi43bC04LjIgMTQuM2MtMyA1LjMtOS40IDcuNS0xNS4xIDUuNC0xMS44LTQuNC0yMi42LTEwLjctMzIuMS0xOC42LTQuNi0zLjgtNS44LTEwLjUtMi44LTE1LjdsOC4yLTE0LjNjLTYuOS04LTEyLjMtMTcuMy0xNS45LTI3LjRoLTE2LjVjLTYgMC0xMS4yLTQuMy0xMi4yLTEwLjMtMi0xMi0yLjEtMjQuNiAwLTM3LjEgMS02IDYuMi0xMC40IDEyLjItMTAuNGgxNi41YzMuNi0xMC4xIDktMTkuNCAxNS45LTI3LjRsLTguMi0xNC4zYy0zLTUuMi0xLjktMTEuOSAyLjgtMTUuNyA5LjUtNy45IDIwLjQtMTQuMiAzMi4xLTE4LjYgNS43LTIuMSAxMi4xLjEgMTUuMSA1LjRsOC4yIDE0LjNjMTAuNS0xLjkgMjEuMi0xLjkgMzEuNyAwbDguMi0xNC4zYzMtNS4zIDkuNC03LjUgMTUuMS01LjQgMTEuOCA0LjQgMjIuNiAxMC43IDMyLjEgMTguNiA0LjYgMy44IDUuOCAxMC41IDIuOCAxNS43bC04LjIgMTQuM2M2LjkgOCAxMi4zIDE3LjMgMTUuOSAyNy40aDE2LjVjNiAwIDExLjIgNC4zIDEyLjIgMTAuMyAyIDEyIDIuMSAyNC42IDAgMzcuMS0xIDYtNi4yIDEwLjQtMTIuMiAxMC40aC0xNi41Yy0zLjYgMTAuMS05IDE5LjQtMTUuOSAyNy40bDguMiAxNC4zYzMgNS4yIDEuOSAxMS45LTIuOCAxNS43LTkuNSA3LjktMjAuNCAxNC4yLTMyLjEgMTguNi01LjcgMi4xLTEyLjEtLjEtMTUuMS01LjRsLTguMi0xNC4zYy0xMC40IDEuOS0yMS4yIDEuOS0zMS43IDB6TTUwMS42IDQzMWMzOC41IDI5LjYgODIuNC0xNC4zIDUyLjgtNTIuOC0zOC41LTI5LjYtODIuNCAxNC4zLTUyLjggNTIuOHoiPjwvcGF0aD48L3N2Zz4=);
+  background-image: url(../assets/svg/settings.svg);
   background-repeat: no-repeat;
   cursor: pointer;
   border: none;
@@ -1055,7 +986,6 @@ ul {
   opacity: 0.3;
   margin-bottom: 40px;
 }
-
 .close:hover {
   opacity: 1;
 }
@@ -1201,7 +1131,7 @@ input:checked + .change:before {
 }
 
 .background__radio:checked + .background__label::after {
-  background-image: url(data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTIwIDEyMCIgdmVyc2lvbj0iMS4xIiBmaWxsPSIjYzViMzU4Ig0KICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPg0KICA8Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIvPg0KPC9zdmc+);
+  background-image: url(../assets/svg/circle.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 10px;
@@ -1308,7 +1238,8 @@ input[placeholder] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='12' fill='%333'%3E%3Cpath d='M0 0h24L12 12z'/%3E%3C/svg%3E") calc(100% - 10px) center no-repeat;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='12' fill='%333'%3E%3Cpath d='M0 0h24L12 12z'/%3E%3C/svg%3E")
+    calc(100% - 10px) center no-repeat;
   background-color: #ebdc93;
   background-size: 10px;
   border: none;
@@ -1410,28 +1341,28 @@ input[placeholder] {
   opacity: 1;
 }
 
-[data-todo-state=active] .todo-action_restore,
-[data-todo-state=completed] .todo-action_complete,
-[data-todo-state=deleted] .todo-action_complete {
+[data-todo-state="active"] .todo-action_restore,
+[data-todo-state="completed"] .todo-action_complete,
+[data-todo-state="deleted"] .todo-action_complete {
   display: none;
 }
 
-[data-todo-state=completed] {
+[data-todo-state="completed"] {
   text-decoration: line-through;
   color: #727171;
 }
 
-[data-todo-state=deleted] .todo-task {
+[data-todo-state="deleted"] .todo-task {
   color: #727171;
 }
 
-[data-todo-state=deleted] .todo-action_restore {
+[data-todo-state="deleted"] .todo-action_restore {
   right: 5px;
 }
 
-[data-todo-option=active] .todo-item:not([data-todo-state=active]),
-[data-todo-option=completed] .todo-item:not([data-todo-state=completed]),
-[data-todo-option=deleted] .todo-item:not([data-todo-state=deleted]) {
+[data-todo-option="active"] .todo-item:not([data-todo-state="active"]),
+[data-todo-option="completed"] .todo-item:not([data-todo-state="completed"]),
+[data-todo-option="deleted"] .todo-item:not([data-todo-state="deleted"]) {
   display: none;
 }
 
@@ -1456,4 +1387,3 @@ input[placeholder] {
   }
 }
 
-/*# sourceMappingURL=main.50e48d66433d7abdc993.css.map*/
