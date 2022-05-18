@@ -1,22 +1,27 @@
+import aquaSong from "../assets/sounds/Aqua Caelestis.mp3";
+import ennioSong from "../assets/sounds/Ennio Morricone.mp3";
+import riverSong from "../assets/sounds/River Flows In You.mp3";
+import summerSong from "../assets/sounds/Summer Wind.mp3";
+
 export const songs = [
   {
     title: "Aqua Caelestis",
-    src: "../assets/sounds/Aqua Caelestis.mp3",
+    src: aquaSong,
     duration: "0:39",
   },
   {
     title: "Ennio Morricone",
-    src: "../assets/sounds/Ennio Morricone.mp3",
+    src: ennioSong,
     duration: "1:37",
   },
   {
     title: "River Flows In You",
-    src: "../assets/sounds/River Flows In You.mp3",
+    src: riverSong,
     duration: "1:37",
   },
   {
     title: "Summer Wind",
-    src: "../assets/sounds/Summer Wind.mp3",
+    src: summerSong,
     duration: "1:50",
   },
 ];

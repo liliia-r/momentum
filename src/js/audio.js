@@ -10,6 +10,12 @@ import {
   progressSound,
   sound,
 } from "../utils/constants";
+
+import aquaSong from "../assets/sounds/Aqua Caelestis.mp3";
+import ennioSong from "../assets/sounds/Ennio Morricone.mp3";
+import riverSong from "../assets/sounds/River Flows In You.mp3";
+import summerSong from "../assets/sounds/Summer Wind.mp3";
+
 import { songs } from "../utils/songs";
 
 let audio = new Audio();

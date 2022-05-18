@@ -131,6 +131,11 @@ module.exports = ({ development }) => {
             name: "[path][name].[ext]",
           },
         },
+
+        {
+          test: /\.mp3$/,
+          use: [{ loader: "file-loader" }],
+        },
       ],
     },
     plugins: [

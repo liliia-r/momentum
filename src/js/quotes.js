@@ -1,6 +1,8 @@
 import { quote, author, changeQuote } from "../utils/constants";
 import i18next from "i18next";
 
+import enTranslation from "../i18n/translations/quotesEn.json";
+
 let currentKey;
 
 export const setText = () => {
@@ -9,9 +11,7 @@ export const setText = () => {
 };
 
 export default async function getQuote() {
-  const res = await fetch("../i18n/translations/quotesEn.json");
-  const data = await res.json();
-  const keys = Object.keys(data);
+  const keys = Object.keys(enTranslation);
 
   let current = Math.floor(Math.random() * (keys.length - 1));
 
